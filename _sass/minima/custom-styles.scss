@@ -1,0 +1,261 @@
+// Common --------------------------------------------------------------------------------
+html {
+	scroll-behavior: smooth;
+}
+
+.home-item-title {
+  margin-bottom: 0px;
+}
+
+.home-item-description {
+  font-size: $small-font-size;
+  font-weight: lighter;
+  margin-bottom: 0px;
+}
+
+a.link-button {
+  border: 1px $link-base-color solid;
+  border-radius: 5px;
+  padding: 7px 15px 7px 15px;
+}
+a.link-button:hover {
+  background-color: $link-base-color;
+  color: white;
+  text-decoration: none;
+}
+
+@include media-query($on-palm) {
+  .footer-col-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.home-publication-container {
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 14px;
+  border-radius: 7px/7px;
+  border: thin $border-color-02 solid;
+}
+
+.home-publication-image,
+.home-publication-image-with-border {
+  width: 390px;
+  height: 85px;
+  object-fit: contain;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.home-publication-image-with-border {
+  border-bottom: thin $border-color-02 solid;
+}
+
+.home-publication-content {
+  padding: 10px;
+}
+
+.home-publication-container {
+  .home-item-title {
+    margin-top: 0.5em;
+    align-self: flex-start;
+  }
+}
+
+@include media-query($on-palm) {
+  .home-publication-container {
+    width: 300px;
+  }
+
+  .home-publication-image,
+  .home-publication-image-with-border {
+    width: 300px;
+    height: 240px;
+  }
+}
+
+// Project -------------------------------------------------------------------------------
+.home-programmingprojects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.home-project-container {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 14px;
+  border-radius: 7px/7px;
+  border: thin $border-color-02 solid;
+}
+
+.home-project-image,
+.home-project-image-with-border {
+  width: 250px;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.home-project-image-with-border {
+  border-bottom: thin $border-color-02 solid;
+}
+
+.home-project-content {
+  padding: 10px;
+}
+
+.home-project-container {
+  .home-item-title {
+    margin-top: 0.5em;
+    align-self: flex-start;
+  }
+}
+
+@include media-query($on-palm) {
+  .home-project-container {
+    width: 300px;
+  }
+
+  .home-project-image,
+  .home-project-image-with-border {
+    width: 300px;
+    height: 240px;
+  }
+}
+
+// Experience ----------------------------------------------------------------------------
+.home-experience-logo {
+  border-radius: 7%;
+  width: 60px;
+  height: 60px;
+  align-self: center;
+  margin: 10px;
+}
+
+.home-experience-container {
+  display: flex;
+  flex-direction: row;
+}
+
+// Introduction --------------------------------------------------------------------------
+.intro-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-container {
+  min-width: 200px;
+  min-height: 200px;
+  margin: 0px 30px 0px 0px;
+}
+
+img.my-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 7%;
+}
+
+@include media-query($on-palm) {
+  .intro-content {
+    flex-direction: column;
+  }
+  .profile-container {
+    align-self: center;
+    margin: 0px 0px 0px 0px;
+  }
+  img.my-photo {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+// overriding
+// TODO: make my own class
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  li {
+    a {
+      border: none;
+    }
+  }
+}
+
+// Header title animation ----------------------------------------------------------------
+#title-firstname,
+#title-lastname {
+  position: absolute;
+}
+
+.title-slide-in {
+  animation-name: slidein;
+  animation-duration: $title-animation-duration;
+}
+
+.title-slide-out {
+  animation-name: slideout;
+  animation-duration: $title-animation-duration;
+}
+
+.title-stay-left {
+  transform: $title-translate-left;
+}
+
+.title-stay-right {
+  transform: $title-translate-right;
+}
+
+.title-slide-left {
+  animation-name: slideleft;
+  animation-duration: $title-animation-duration;
+}
+
+.title-slide-right {
+  animation-name: slideright;
+  animation-duration: $title-animation-duration;
+}
+
+@keyframes slideleft {
+  from {
+    transform: $title-translate-right;
+  }
+  to {
+    transform: $title-translate-left;
+  }
+}
+
+@keyframes slideright {
+  from {
+    transform: $title-translate-left;
+  }
+  to {
+    transform: $title-translate-right;
+  }
+}
+
+@keyframes slidein {
+  from {
+    bottom: 100%;
+    opacity: 0;
+  }
+  to {
+    bottom: 3%;
+    opacity: 1;
+  }
+}
+
+@keyframes slideout {
+  from {
+    top: 0%;
+    opacity: 1;
+  }
+  to {
+    top: 100%;
+    opacity: 0;
+  }
+}

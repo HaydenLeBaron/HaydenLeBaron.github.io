@@ -1,0 +1,32 @@
+{%- assign social = site.minima.social_links -%}
+
+<ul class="social-media-list">
+  {%- if social.github -%}
+    {%- include components/social-link.html
+      base_url="https://github.com/"
+      id=social.github
+      social="github"
+    -%}
+  {%- endif -%}
+  {%- if social.stackoverflow -%}
+    {%- include components/social-link.html
+      base_url="https://stackoverflow.com/users/"
+      id=social.stackoverflow
+      social="stackoverflow"
+    -%}
+  {%- endif -%}
+  {%- if social.linkedin -%}
+    {%- include components/social-link.html
+      base_url="https://linkedin.com/in/"
+      id=social.linkedin
+      social="linkedin"
+    -%}
+  {%- endif -%}
+  {%- if social.twitter -%}
+    {%- include components/social-link.html
+      base_url="https://twitter.com/"
+      id=social.twitter
+      social="twitter"
+    -%}
+  {%- endif -%}
+</ul>
