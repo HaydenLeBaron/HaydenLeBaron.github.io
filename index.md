@@ -8,5 +8,8 @@ I'm a software engineer who graduated with a B.S. of <a href="https://www.cs.uta
 
 <p>
 I'm currently looking for a junior software engineer position anywhere in the contiguous United States.
-Feel free to connect with me on <a href="https://www.linkedin.com/in/hayden-lebaron-740074163/">LinkedIn</a> or follow me or any of my projects on <a href="https://github.com/HaydenTheBaron">GitHub</a>.
+Feel free to connect with me on <a href="https://www.linkedin.com/in/hayden-lebaron-740074163/">LinkedIn</a> or follow me or any of my projects on <a href="https://github.com/HaydenTheBaron">GitHub</a>. 
+
+Or email me at <i>hlebaron 98 at gmail dot com</i>
+
 </p>
