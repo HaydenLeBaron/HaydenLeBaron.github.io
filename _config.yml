@@ -17,7 +17,7 @@ minima:
   # generate social links in footer
   social_links:
     #twitter: hlebaron98
-    github:  HaydenTheBaron
+    github:  HaydenLeBaron
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
@@ -42,7 +42,7 @@ minima:
 
     # GitLab instances
     #gitlab:
-    #- username: HaydenTheBaron
+    #- username: HaydenLeBaron
     #  instance: gitlab.com
 
 # If you want to link only specific pages in your header, uncomment
