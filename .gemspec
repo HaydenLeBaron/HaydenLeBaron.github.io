@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.name          = "personal-webpage"
   spec.version       = "0"
   spec.authors       = ["Hayden LeBaron"]
-  spec.email         = ["hlebaron98@gmail.com"]
+  spec.email         = ["me@haydenlebaron.com"]
 
   spec.summary       = "My Personal Page"
   spec.homepage      = "https://github.com/HaydenTheBaron/HaydenTheBaron.github.io"
