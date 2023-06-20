@@ -50,7 +50,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Hayden and I'm a software engineer. Most of my experience is in full stack mobile and web application development.
 
-  I am most skilled in: <mark>Functional Programming</mark> and <mark>Matching Parenthesis</mark>
+  My top skills are <mark>Functional Programming</mark> and <mark>Matching Parenthesis</mark>
 
 content:
   - title: Experience # Title for the section
