@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "c8204b3647714ce4",
+    "type": "split",
+    "children": [
+      {
+        "id": "b203b32d443676bc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "I.Exercise.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e7ab19907ea51483",
+    "type": "split",
+    "children": [
+      {
+        "id": "08545fff5acf9efe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ad5a301527c95ae",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "59dc35589c0ad884",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Lens",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1c72e8b1f0f8389a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2f71ddb040ae15b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ff69e5b37d048ed",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "I.Exercise.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "b203b32d443676bc",
+  "lastOpenFiles": [
+    "I.Exercise.md",
+    "D.Template Note.md",
+    "D.Note Naming Conventions.md",
+    "D.INDEX.md",
+    "M.INDEX.md",
+    "Product Type.md",
+    "Result Type.md",
+    "Sum Type.md",
+    "Ladder of Functional Programming.md",
+    "I.Todo.md"
+  ]
+}

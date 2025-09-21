@@ -1,208 +1,45 @@
-# Site
-repository: HaydenLeBaron/HaydenLeBaron.github.io
-favicon: images/favicon.ico
+title:               λx.λy.x
+include:             ['_pages']
+exclude:             ['_includes/notes_graph.json']
+# You may need to change the base URL depending on your deploy configuration.
+# Specifically, when using GitHub Pages, the baseurl should point to where GitHub
+# Pages deploys your repository (which is usually the repository name).
+baseurl:             ''
 
-# Content configuration version
-version: 2
+# If you are using a host that cannot resolve URLs that do
+# not end with .html (such as Neocities), set this to 'true'.
+use_html_extension:  false
 
-# Personal info
-name: Hayden LeBaron
-title: Software Engineer
-email: me@haydenlebaron.com
-#website: www.github.com/HaydenLeBaron
+# Set to `true` to open non-internal links in new tabs, or
+# set to `false` to open non-internal links in current tab.
+open_external_links_in_new_tab: true
 
-# Dark Mode (true/false/never)
-darkmode: false
+# Set to `true` to replace tweet URLs with Twitter embeds.
+# Note that doing so will negatively the reader's privacy
+# as their browser will communicate with Twitter's servers.
+embed_tweets: false
 
-# Social links
-# twitter_username: DarthVader
-github_username:  HaydenLeBaron
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: starwars
-linkedin_username: hayden-lebaron-740074163
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: starwars
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-additional_links:
-- title: resume
-  icon: fas fa-file
-  url: https://docs.google.com/document/d/1T29_RleQ759yxueenBdnSJMKkgXYOJa1GcnTSTnBz3Q/edit?usp=sharing
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Hayden and I'm a software engineer. Most of my experience is in full stack mobile and web application development.
-
-  My top skills are <mark>Functional Programming</mark> and <mark>Matching Parenthesis</mark>
-
-content:
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Qwick
-        link: qwick.com
-        # link_text: qwick.com
-        sub_title: Software Engineer II
-        caption: Jan 2023 - Jun 2023
-        quote: >
-          Tech-Enabled Gig Economy for the Hospitality Industry
-        description: | # this will include new lines to allow paragraphs
-            -  Full stack <mark>Web</mark> and <mark>Mobile</mark> development with a <mark>React</mark> / <mark>React Native</mark> front end consuming a <mark>GraphQL</mark> API, backed by a <mark>ReasonML</mark> eventing/job system and a <mark>PostgreSQL</mark> database.
-            -  Empowered Marketplace Ops, building tools to activate churned users.
-            -  Entrusted with on-call prod support shifts, code review, hotfixes.
-      - sub_title: Software Engineer I
-        caption: Jan 2022 - Dec 2022
-        description: | # this will include new lines to allow paragraphs
-            - Delivered a W2 <mark>MVP</mark> on a squad of 3 devs in 2 months, enabling new enterprise clients to use the platform compliantly.
-            - Rebuilt legacy p2p referral payout system using the <mark>Stripe API</mark>, reducing fraud and tech debt.
-      - layout: left
-        title: Δy
-        link: https://github.com/delta-y-app/delta-y-releases
-        link_text: Check it out!
-        sub_title: Senior Capstone Project
-        caption: Oct 2020 - Dec 2021
-        quote: >
-          Agile Goal Tracking and Task Management App
-        description: | # this will include new lines to allow paragraphs
-          - Conducted user research, tests, and experiments.
-          - Researched technologies and decided on a cross-platform <mark>Flutter</mark> / <mark>Dart</mark> <mark>mobile app</mark> backed by <mark>Firebase Cloud Firestore</mark>.
-          - Led a student team of 4 devs and 1 designer during implementation. Pulled my weight [and more](https://github.com/delta-y-app/delta-y/graphs/contributors).
-        #![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
-      - layout: left
-        title: Porch Software
-        link: porch.software
-        # link_text: porch.software
-        sub_title: Junior Software Engineer In Test
-        caption: Nov 2019 - Feb 2020
-        quote: >
-          Insurance Technology Focused on Advisors
-        description: | # this will include new lines to allow paragraphs
-         - Programmed <mark>automated end-to-end tests</mark> on an <mark>Agile</mark> QE team.
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: University of Utah
-        caption: Jan 2018 - Dec 2021
-        sub_title: BSc Computer Science
-        #quote: >
-        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          GPA: 3.6
-
-          Selected Coursework:
-          - [CS6510](https://my.eng.utah.edu/~cs6510/s16/) Functional Programming
-          - [CS5340](https://my.eng.utah.edu/~cs5340/syllabus.html) Natural Language Processing
-          - [CS4230](https://student.apps.utah.edu/uofu/stu/ClassSchedules/main/1228/description.html?subj=CS&catno=4230&section=001) Parallel Programming
-          - [CS3190](https://users.cs.utah.edu/~jeffp/teaching/FoDA.html) Foundations of Data Analysis
-
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Arezzo
-        #link: github.com/HaydenLeBaron/arezzo
-        #link_text: Project Website
-        additional_links:
-          - title:  GitHub
-            icon: fab fa-github
-            url: github.com/HaydenLeBaron/arezzo
-        quote: >
-          Musical programming language    
-        description: | # this will include new lines to allow paragraphs
-          Wrote the specification and implementation of a <mark>Compiler</mark> for a Solfège-oriented music PL optimized for writing instrumental quartets. Features MIDI transpilation and instant audio playback. Implemented as a <mark>Racket (Lisp)</mark> module language. 
-      - layout: top-middle
-        title: Sweaty Tic-Tac-Toe
-        #link: github.com/HaydenLeBaron/sweaty-tictactoe
-        additional_links:
-          - title: GitHub
-            icon: fab fa-github
-            url: github.com/HaydenLeBaron/sweaty-tictactoe
-        quote: >
-          Tic-Tac-Toe for try-hards
-        description: |
-          <mark>Haskell</mark> implementation of a souped-up, 2-player NxN dimensional tic-tac-toe game. Features an HTTP server that tracks the results of every game ever played on all client instances, thereby immortalizing each glorious victory and shameful defeat!
-      - layout: top-middle
-        title: Santorini Player
-        additional_links:
-          - title:  GitHub
-            icon: fab fa-github
-            url: github.com/HaydenLeBaron/santorini-player
-        quote: >
-          CSP-solver strategy bot
-        description: |
-          Plays the pure-strategy board game [Santorini](https://boardgamegeek.com/boardgame/194655/santorini). The bot can play against other bot instances, logging the progress of the game with printouts until a winner is reached. Written in <mark>Racket (Lisp)</mark>.
-      - layout: top-middle
-        title: N-gram Language Models
-        additional_links:
-          - title: GitHub
-            icon: fab fa-github
-            url: github.com/HaydenLeBaron/ngram-langmodels 
-        quote: >
-          Probabilistic NLP bigram and unigram models 
-        description: |
-          This <mark>Natural Language Processing</mark> project uses training text to create, unigram (no smoothing), bigram (no smoothing), and bigram (add-one smoothing) language models. The program allows the user to estimate the probability of any given string string under the language model(s) generated by the training data. Implemented in <mark>Python</mark>.
-      - layout: top-middle
-        title: Quantified-Self Location Dashboard
-        additional_links:
-          - title: GitHub
-            icon: fab fa-github
-            url: github.com/tyguy-1122/qs-location-dashboard
-        quote: >
-          Data visualization for Google Takeout location data
-        description: |
-          <mark>Data Analysis</mark> project written in <mark>Python</mark> that visualizes location data from Google Takeout. The user inputs a file path for downloaded JSON Google Takeout location data and the coordinates for places of interest to see an analysis of time spent at those locations.
-      - layout: top-middle
-        title: Markdown Wiki Cartographer
-        additional_links:
-          - title: GitHub
-            icon: fab fa-github
-            url: github.com/HaydenLeBaron/mdwiki-cartographer
-        quote: >
-          Visualization for markdown wikis
-        description: |
-          <mark>Python</mark> script that generates an image of a directed graph, representing the structure of a markdown wiki.
-      - layout: top-middle
-        title: Tank Wars
-        additional_links:
-          - title: GitHub
-            icon: fab fa-github
-            url: github.com/HaydenLeBaron/TankWars
-        description: |
-          An online multiplayer tank game created with <mark>C#</mark> / <mark>.NET</mark>, written with an <mark>MVC</mark> architecture and <mark>OOP</mark> patterns. Features a <mark>SQL</mark>-backed high-score <mark>Web Server</mark>.
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in programming languages and tech some of my other interests and hobbies include, [piano](https://www.youtube.com/watch?v=6OQc_oRseXI), travel, philosophy, [patristic theology](https://en.wikipedia.org/wiki/Patristics), language learning, and [zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten).
-
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-remote_theme: sproogen/resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
+permalink:           pretty
+relative_permalinks: false
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-last-modified-at
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+collections:
+  notes:
+    output: true
+    permalink: /:slug
+
+defaults:
+  - scope:
+      path: "**/*"
+    values:
+      layout: "default"
+  - scope:
+      path: "_notes/**/*.md"
+    values:
+      layout: "note"

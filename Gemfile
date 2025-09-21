@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+gem "jekyll", "~> 4.0"
+gem "jekyll-sass-converter", "~> 2.2.0"
+gem "jekyll-last-modified-at", git: "https://github.com/maximevaillancourt/jekyll-last-modified-at", branch: "add-support-for-files-in-git-submodules"
+gem "webrick", "~> 1.7"
+gem "nokogiri"
