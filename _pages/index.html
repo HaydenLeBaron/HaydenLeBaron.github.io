@@ -10,7 +10,10 @@ permalink: /
   <div class="header-content">
     <img src="/assets/profile.jpg" alt="Hayden LeBaron" class="header-profile-image" />
     <div class="header-text">
-      <h1>(Hayden LeBaron) <span class="tagline">:: Software Engineer</span></h1>
+      <div class="title-container">
+        <h1>(Hayden LeBaron) <span class="tagline">:: Software Engineer</span></h1>
+        <a href="/hayden-lebaron-resume.pdf" download="hayden-lebaron-resume.pdf" class="download-button">Download PDF</a>
+      </div>
       <nav class="contact-links">
         <a href="mailto:me@haydenlebaron.com" class="email-chip">me@haydenlebaron.com</a>
         <span class="separator">|</span>
@@ -501,6 +504,31 @@ li {
 
 .knowledge-garden-cta a {
   font-size: 1.1em;
+  text-decoration: none;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  /* color: white; */
+  text-decoration: none;
+  /* border-radius: 5px; */
+  font-size: 0.9em;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  white-space: nowrap;
+}
+
+.download-button:hover {
+  background-color: #005a9f;
   text-decoration: none;
 }
 
