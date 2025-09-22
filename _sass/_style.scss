@@ -14,7 +14,7 @@ body {
   box-sizing: content-box;
   font-family: $font-family;
   margin: 0;
-  line-height: 1.1;
+  line-height: 1.0;
   padding: 0;
   overflow-x: hidden;
   color: $color-text;
@@ -32,20 +32,20 @@ body {
 .wrapper {
   max-width: 80em;
   margin: 0 auto;
-  padding: 4vh 6vw;
+  padding: 2vh 6vw;
 }
 
 time {
   display: block;
   color: $color-subtext;
-  margin: 0.5em 0 1em;
+  margin: 0.25em 0 0.5em;
 }
 
 footer {
-  margin: 2em 0;
+  margin: 1em 0;
   font-size: 0.8em;
   color: mix($color-text, white, 60%);
-  padding-top: 1em;
+  padding-top: 0.5em;
 }
 
 img {
@@ -57,7 +57,7 @@ img {
 }
 
 blockquote {
-  padding: 1.5em;
+  padding: 1em;
   margin: 0;
   font-size: 0.88em;
   background: $color-box-background;
@@ -72,22 +72,22 @@ hr {
   width: 100%;
   border: 0;
   height: 1px;
-  margin: 1.5em 0;
+  margin: 1em 0;
   background: $color-border;
 }
 
 h1 {
   font-size: 1.8rem;
-  line-height: 1.3;
+  line-height: 1.2;
   margin-bottom: 0;
-  padding-bottom: 12px;
+  padding-bottom: 8px;
 }
 
 h2 {
   font-size: 1.4rem;
-  line-height: 1.3;
+  line-height: 1.2;
   margin-bottom: 0;
-  padding-bottom: 12px;
+  padding-bottom: 8px;
 }
 
 h3 {
@@ -135,7 +135,7 @@ nav {
   top: 0;
   background: inherit;
   z-index: 100;
-  margin: 1em 0 3em;
+  margin: 1em 0 2em;
 
   .internal-link {
     font-size: 1.5rem;
@@ -151,7 +151,7 @@ ul {
 }
 
 li {
-  padding-bottom: 15px;
+  padding-bottom: 8px;
 }
 
 #notes-entry-container {
@@ -164,7 +164,7 @@ li {
 
 .backlink-box {
   background: $color-box-background;
-  padding: 1em;
+  padding: 0.75em;
   border-radius: $border-radius;
 }
 
