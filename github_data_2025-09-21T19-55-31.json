@@ -1,0 +1,248 @@
+{
+  "profile": {
+    "login": "HaydenLeBaron",
+    "name": "Hayden LeBaron",
+    "bio": "Functional programming enthusiast.\r\nInterested in type theory, formal logic, and Byzantium.",
+    "location": "Salt Lake City, UT",
+    "email": "me@haydenlebaron.com",
+    "blog": "https://haydenlebaron.com",
+    "company": null,
+    "html_url": "https://github.com/HaydenLeBaron",
+    "avatar_url": "https://avatars.githubusercontent.com/u/43355097?v=4",
+    "public_repos": 29,
+    "followers": 19,
+    "following": 37,
+    "created_at": "2018-09-17T20:16:12Z",
+    "updated_at": "2025-09-21T07:38:09Z"
+  },
+  "nonpinned_repositories": [
+    {
+      "name": "HaydenLeBaron",
+      "full_name": "HaydenLeBaron/HaydenLeBaron",
+      "description": "My profile",
+      "html_url": "https://github.com/HaydenLeBaron/HaydenLeBaron",
+      "homepage": null,
+      "topics": [],
+      "languages": {},
+      "readme_url": "https://github.com/HaydenLeBaron/HaydenLeBaron/blob/main/README.md",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "created_at": "2022-03-13T05:51:25Z",
+      "updated_at": "2025-09-22T01:39:29Z",
+      "pushed_at": "2025-09-21T07:51:05Z"
+    },
+    {
+      "name": "prog-assignment1-cs4230",
+      "full_name": "HaydenLeBaron/prog-assignment1-cs4230",
+      "description": "Programming assignment 1 for cs4230",
+      "html_url": "https://github.com/HaydenLeBaron/prog-assignment1-cs4230",
+      "homepage": null,
+      "topics": [],
+      "languages": {
+        "C": 12089,
+        "Makefile": 740,
+        "Shell": 445
+      },
+      "readme_url": "https://github.com/HaydenLeBaron/prog-assignment1-cs4230/blob/main/README.md",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "created_at": "2020-10-20T18:23:39Z",
+      "updated_at": "2025-09-22T00:01:00Z",
+      "pushed_at": "2020-10-24T01:58:58Z"
+    },
+    {
+      "name": "ngram-langmodels",
+      "full_name": "HaydenLeBaron/ngram-langmodels",
+      "description": "N-gram language models for estimating the probability of strings given training data.",
+      "html_url": "https://github.com/HaydenLeBaron/ngram-langmodels",
+      "homepage": "",
+      "topics": [
+        "language-model",
+        "natural-language-processing",
+        "nlp",
+        "statistical-models"
+      ],
+      "languages": {
+        "Python": 8526,
+        "Shell": 269
+      },
+      "readme_url": "https://github.com/HaydenLeBaron/ngram-langmodels/blob/main/README.md",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "created_at": "2021-09-29T12:04:40Z",
+      "updated_at": "2025-09-22T00:00:14Z",
+      "pushed_at": "2021-10-27T01:17:33Z"
+    },
+    {
+      "name": "sudokudoka",
+      "full_name": "HaydenLeBaron/sudokudoka",
+      "description": "A Sudoku solver and generator, written in Racket.",
+      "html_url": "https://github.com/HaydenLeBaron/sudokudoka",
+      "homepage": "",
+      "topics": [
+        "constraint-satisfaction-problem"
+      ],
+      "languages": {
+        "Racket": 13088
+      },
+      "readme_url": "https://github.com/HaydenLeBaron/sudokudoka/blob/main/README.md",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "created_at": "2021-01-27T20:05:25Z",
+      "updated_at": "2025-09-21T23:58:23Z",
+      "pushed_at": "2021-02-07T04:20:45Z"
+    },
+    {
+      "name": "santorini-player",
+      "full_name": "HaydenLeBaron/santorini-player",
+      "description": "A bot that plays the pure-strategy game, Santorini. Generates all possible valid moves, then chooses the best based on heuristics.",
+      "html_url": "https://github.com/HaydenLeBaron/santorini-player",
+      "homepage": "",
+      "topics": [
+        "bot",
+        "functional-programming"
+      ],
+      "languages": {
+        "Racket": 26682,
+        "Shell": 900
+      },
+      "readme_url": "https://github.com/HaydenLeBaron/santorini-player/blob/main/README.md",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "created_at": "2021-02-15T23:17:20Z",
+      "updated_at": "2025-09-21T23:58:15Z",
+      "pushed_at": "2021-10-27T01:47:56Z"
+    },
+    {
+      "name": "pong-game",
+      "full_name": "HaydenLeBaron/pong-game",
+      "description": "A simple pong game written with pygame.",
+      "html_url": "https://github.com/HaydenLeBaron/pong-game",
+      "homepage": "",
+      "topics": [
+        "game",
+        "multiplayer"
+      ],
+      "languages": {
+        "Python": 24464
+      },
+      "readme_url": "https://github.com/HaydenLeBaron/pong-game/blob/main/README.md",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "created_at": "2020-04-29T11:57:02Z",
+      "updated_at": "2025-09-21T23:58:12Z",
+      "pushed_at": "2021-10-27T02:20:37Z"
+    },
+    {
+      "name": "mdwiki-cartographer",
+      "full_name": "HaydenLeBaron/mdwiki-cartographer",
+      "description": "Creates a directed graph image representing the link structure of a markdown wiki.",
+      "html_url": "https://github.com/HaydenLeBaron/mdwiki-cartographer",
+      "homepage": "",
+      "topics": [],
+      "languages": {
+        "Python": 12011
+      },
+      "readme_url": "https://github.com/HaydenLeBaron/mdwiki-cartographer/blob/main/README.md",
+      "stargazers_count": 2,
+      "forks_count": 0,
+      "created_at": "2020-05-15T01:14:22Z",
+      "updated_at": "2025-09-21T23:57:59Z",
+      "pushed_at": "2021-12-28T00:37:08Z"
+    }
+  ],
+  "pinned_repositories": [
+    {
+      "name": "provably-packed",
+      "full_name": "HaydenLeBaron/provably-packed",
+      "description": "A Lean 4 eDSL for writing declarative, correct-by-construction packing lists for user defined expeditions (e.g. walking the Camino, hiking the CDT, dressing for a wedding)",
+      "html_url": "https://github.com/HaydenLeBaron/provably-packed",
+      "homepage": "",
+      "topics": [
+        "dependant-typing",
+        "edsl",
+        "formal-verification",
+        "functional-programming",
+        "theorem-proving"
+      ],
+      "languages": {
+        "Lean": 95838
+      },
+      "readme_url": "https://github.com/HaydenLeBaron/provably-packed/blob/main/README.md",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "created_at": "2025-09-21T01:12:57Z",
+      "updated_at": "2025-09-21T23:57:21Z",
+      "pushed_at": "2025-09-21T07:38:00Z"
+    },
+    {
+      "name": "arezzo",
+      "full_name": "HaydenLeBaron/arezzo",
+      "description": "A relative pitch/rhythm based programming language built on Racket and Alda.",
+      "html_url": "https://github.com/HaydenLeBaron/arezzo",
+      "homepage": "",
+      "topics": [
+        "declarative-language",
+        "music-composition",
+        "programming-language",
+        "racket"
+      ],
+      "languages": {
+        "Racket": 22447
+      },
+      "readme_url": "https://github.com/HaydenLeBaron/arezzo/blob/main/README.md",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "created_at": "2021-05-02T05:47:55Z",
+      "updated_at": "2021-11-19T23:59:00Z",
+      "pushed_at": "2021-10-27T00:39:57Z"
+    },
+    {
+      "name": "funxychat",
+      "full_name": "HaydenLeBaron/funxychat",
+      "description": "(* \"An anonymous CLI-based chat service you can trust against your better judgment.™\" *)",
+      "html_url": "https://github.com/HaydenLeBaron/funxychat",
+      "homepage": "",
+      "topics": [
+        "chat-server-application",
+        "cli-app",
+        "ocaml"
+      ],
+      "languages": {
+        "OCaml": 5686,
+        "Shell": 45
+      },
+      "readme_url": "https://github.com/HaydenLeBaron/funxychat/blob/main/README.md",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "created_at": "2023-12-21T18:20:58Z",
+      "updated_at": "2025-09-21T23:57:26Z",
+      "pushed_at": "2023-12-26T23:46:43Z"
+    },
+    {
+      "name": "sweaty-tictactoe",
+      "full_name": "HaydenLeBaron/sweaty-tictactoe",
+      "description": "Tic-tac-toe for tryhards. Play for glory.",
+      "html_url": "https://github.com/HaydenLeBaron/sweaty-tictactoe",
+      "homepage": "",
+      "topics": [
+        "cli-client",
+        "esports",
+        "haskell",
+        "high-stakes",
+        "honor",
+        "http-server"
+      ],
+      "languages": {
+        "Haskell": 14275
+      },
+      "readme_url": "https://github.com/HaydenLeBaron/sweaty-tictactoe/blob/main/README.md",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "created_at": "2022-01-14T01:40:11Z",
+      "updated_at": "2025-09-21T23:57:25Z",
+      "pushed_at": "2025-09-21T02:25:58Z"
+    }
+  ],
+  "fetched_at": "2025-09-22T01:54:30.733930Z"
+}
