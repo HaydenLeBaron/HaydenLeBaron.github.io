@@ -1,0 +1,56 @@
+{
+  "education": {
+    "degrees": [
+      {
+        "institution": "University of Utah",
+        "degree": "Bachelor's degree, Computer Science",
+        "dates": "2018 - 2021",
+        "grade": "3.6",
+        "activities_and_societies": "- Utah Student Robotics, U of U NASA Robotic Mining Competition team (9/2018-2/2019)",
+        "description": "Elective coursework focused on data science, systems programming, and functional programming. Senior capstone focused on mobile app development.",
+        "skills": [
+          "Functional Programming",
+          "Racket",
+          "Lisp",
+          "Python",
+          "PostgreSQL",
+          "SQL",
+          "Linux",
+          "C++",
+          "Bash",
+          "C#",
+          ".NET Framework",
+          "Java"
+        ]
+      },
+      {
+        "institution": "Brigham Young University",
+        "degree": null,
+        "dates": "2016 - 2017",
+        "description": "Did GEs at BYU before transferring to the University of Utah due religious/cultural mismatch."
+      }
+    ],
+    "selected_coursework": [
+      {
+        "name": "Foundations of Data Analysis",
+        "code": "CS3190"
+      },
+      {
+        "name": "Functional Programming",
+        "code": "CS6510"
+      },
+      {
+        "name": "Natural Language Processing",
+        "code": "CS5340"
+      },
+      {
+        "name": "Parallel Programming",
+        "code": "CS4230"
+      },
+      {
+        "name": "Programming Languages",
+        "code": "CS3520"
+      }
+    ]
+  }
+}

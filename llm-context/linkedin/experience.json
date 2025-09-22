@@ -1,0 +1,144 @@
+[
+  {
+    "company": "Findd.AI",
+    "roles": [
+      {
+        "title": "Contract Software Engineer",
+        "duration": "Jul 2025 - Present",
+        "description": "Rapidly implemented greenfield BI projects while experimenting with LLM-assisted software development workflows and pipelines - minimizing hallucinations and error propagation via context engineering, loosely coupled architectures, (Hindley-Milner) type-driven development, ADT pattern matching control flow, static code analysis/linting, etc.",
+        "skills": [
+          "Artificial Intelligence (AI)",
+          "Greenfield Development",
+          "Prompt Engineering",
+          "Large Language Models (LLM)",
+          "TypeScript",
+          "MongoDB"
+        ]
+      }
+    ],
+    "location": "Provo, Utah, United States · Remote"
+  },
+  {
+    "company": "DataAnnotation",
+    "roles": [
+      {
+        "title": "Data Annotator",
+        "duration": "Jun 2025 - Jul 2025",
+        "description": "Provided high-quality training data to improve LLM performance in various coding tasks.",
+        "skills": [
+          "Artificial Intelligence (AI)",
+          "Large Language Models (LLM)",
+          "JavaScript",
+          "Python"
+        ]
+      }
+    ],
+    "location": "Remote"
+  },
+  {
+    "company": "Travel",
+    "roles": [
+        {
+            "title": "Backpacker",
+            "duration": "Mar 2025 - Jul 2025",
+            "description": "After the acquisition of Qwick and subsequent layoff of the engineering team, I took the opportunity to travel with a focus on visiting my favorite historical sites and monasteries, as well as basic language proficiency in Japanese and Turkish.",
+            "skills": [
+                "Japanese (N5 - Beginner)",
+                "Turkish (A1 - Beginner)"
+            ]
+        }
+    ],
+    "location": "UK, Greece, Turkey, Iceland, Japan, South Korea, Belgium"
+  },
+  {
+    "company": "Qwick",
+    "roles": [
+      {
+        "title": "Software Engineer",
+        "duration": "Jan 2023 - Mar 2025",
+        "description": "• Full stack development with Reason-React front end consuming a GraphQL API, backed by a ReasonML (Melange) + PostgreSQL event/job system.\n• Empowered Marketplace Ops, building tools to activate churned users.\n• Entrusted with on-call prod support shifts, code review, hotfixes.",
+        "skills": [
+          "Functional Programming",
+          "OCaml",
+          "ReasonML",
+          "GraphQL",
+          "React Native",
+          "PostgreSQL",
+          "React.js",
+          "SQL",
+          "Melange"
+        ]
+      },
+      {
+        "title": "Junior Software Engineer",
+        "duration": "Jan 2022 - Dec 2022",
+        "description": "• Delivered a W2 product offering on a team of 3 devs in 2 months, enabling new enterprise clients to use our platform compliantly.\n• Rewrote legacy p2p referral payout system, reducing fraud & tech debt.",
+        "skills": [
+          "GraphQL",
+          "React Native",
+          "Functional Programming",
+          "PostgreSQL",
+          "React.js",
+          "OCaml",
+          "ReasonML",
+          "SQL"
+        ]
+      }
+    ],
+    "location": "Phoenix, Arizona, United States · Hybrid"
+  },
+    {
+    "company": "University of Utah",
+    "roles": [
+      {
+        "title": "Mobile App Developer (Senior Capstone)",
+        "duration": "Oct 2020 - Nov 2021",
+        "description": "• Co-designed & implemented a scrum-inspired task-management app.\n• Conducted user research, tests, and experiments.\n• Led a student team of 4 devs and 1 designer in Scrum rituals and code review.",
+        "skills": [
+          "Flutter",
+          "Firebase"
+        ]
+      }
+    ],
+    "location": "Salt Lake City"
+  },
+  {
+    "company": "Porch",
+    "roles": [
+      {
+        "title": "Software Engineer In Test",
+        "duration": "Nov 2019 - Feb 2020",
+        "description": "Programmed automated end-to-end tests on an Agile QE team.",
+        "skills": [
+          "Software Testing",
+          "JavaScript"
+        ]
+      }
+    ],
+    "location": "Sandy, Utah, United States"
+  },
+  {
+    "company": "University of Utah",
+    "roles": [
+      {
+        "title": "World Religions TA",
+        "duration": "Jun 2019 - Aug 2019",
+        "description": "",
+        "skills": []
+      }
+    ],
+    "location": "Salt Lake City, Utah, United States"
+  },
+  {
+    "company": "Self-employed",
+    "roles": [
+      {
+        "title": "Piano Instructor",
+        "duration": "Jun 2013 - Dec 2017",
+        "description": "",
+        "skills": []
+      }
+    ],
+    "location": ""
+  }
+]
