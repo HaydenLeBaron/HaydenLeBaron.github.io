@@ -46,6 +46,6 @@ To see the program at work without creating your own wiki, just `cd` into the ro
 
 ---
 
-**Related Projects:** [[Provably Packed]], [[Sudokudoka]]
+**Related Projects:** [Provably Packed](/provably-packed), [Sudokudoka](/sudokudoka)
 
 <!-- **Topics:** [[Data Visualization]], [[Graph Theory]], [[Knowledge Management]], [[Python]] -->

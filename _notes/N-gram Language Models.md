@@ -51,6 +51,6 @@ Smoothed Bigrams, logprob(S) = #
 
 ---
 
-**Related Projects:** [[Sudokudoka]], [[MDWiki Cartographer]]
+**Related Projects:** [Sudokudoka](/sudokudoka), [MDWiki Cartographer](/mdwiki-cartographer)
 
 <!-- **Topics:** [[Natural Language Processing]], [[Statistical Models]], [[Machine Learning]], [[Python]] -->

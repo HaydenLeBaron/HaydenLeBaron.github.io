@@ -102,6 +102,6 @@ $ dune exec -- funxychat client [host-name/ip] [port-number]
 
 ---
 
-**Related Projects:** [[Sweaty Tictactoe]], [[Arezzo]]
+**Related Projects:** [Sweaty Tictactoe](/sweaty-tictactoe), [Arezzo](/arezzo)
 
 <!-- **Topics:** [[OCaml]], [[Network Programming]], [[Concurrent Programming]], [[CLI Applications]] -->

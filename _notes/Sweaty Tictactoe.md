@@ -79,6 +79,6 @@ Try an `<id>` of `0` to get a dummy game.
 
 ---
 
-**Related Projects:** [[Funxychat]], [[Provably Packed]]
+**Related Projects:** [Funxychat](/funxychat), [Provably Packed](/provably-packed)
 
 <!-- **Topics:** [[Haskell]], [[Client-Server Architecture]], [[HTTP Servers]], [[Game Development]] -->

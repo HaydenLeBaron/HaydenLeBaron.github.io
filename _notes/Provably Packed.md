@@ -89,6 +89,6 @@ If it compiles, you have a machine-checked proof that your packing list meets th
 
 ---
 
-**Related Projects:** [[Sweaty Tictactoe]], [[Arezzo]]
+**Related Projects:** [Sweaty Tictactoe](/sweaty-tictactoe), [Arezzo](/arezzo)
 
 <!-- **Topics:** [[Dependent Types]], [[Formal Verification]], [[Theorem Proving]], [[Functional Programming]] -->

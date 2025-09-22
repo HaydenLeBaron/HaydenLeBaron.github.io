@@ -10,6 +10,6 @@ The bot can play against other bot instances. The program logs the progress of t
 ---
 
 
-**Related Projects:** [[Sweaty Tictactoe]], [[Sudokudoka]]
+**Related Projects:** [Sweaty Tictactoe](/sweaty-tictactoe), [Sudokudoka](/sudokudoka)
 
 <!-- **Topics:** [[Game Theory]], [[Artificial Intelligence]], [[Heuristic Search]], [[Racket]] -->
