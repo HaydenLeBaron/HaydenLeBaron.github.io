@@ -3,16 +3,16 @@ title: PROJECTS/
 ---
 
 
-## ⭐️ Favorites 
-- [[Provably Packed]]
-- [[Arezzo]]
+## ⭐️ Favorites
+- [Provably Packed](/provably-packed)
+- [Arezzo](/arezzo)
 
 ## Other Code Samples
-- [[Funxychat]]
-- [[Sweaty Tictactoe]]
-- [[Δy]]
-- [[Santorini Player]]
-- [[Sudokudoka]]
-- [[N-gram Language Models]]
-- [[MDWiki Cartographer]]
-- [[Quantified Self Loc Dashboard]]
+- [Funxychat](/funxychat)
+- [Sweaty Tictactoe](/sweaty-tictactoe)
+- [Δy](%CE%94y)
+- [Santorini Player](/santorini-player)
+- [Sudokudoka](/sudokudoka)
+- [N-gram Language Models](/n-gram-language-models)
+- [MDWiki Cartographer](/mdwiki-cartographer)
+- [Quantified Self Loc Dashboard](/quantified-self-loc-dashboard)
