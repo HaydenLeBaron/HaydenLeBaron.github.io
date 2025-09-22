@@ -1,6 +1,9 @@
 # GitHub Content
 
-[source]
+My GitHub Profile: https://github.com/HaydenLeBaron
+
+GitHub is my source of truth for my portfolio projects.
+
 
 ## Bio
 
@@ -96,8 +99,7 @@ Much of my work is on <a href="https://gitlab.com/HaydenLeBaron" target="_blank"
   <a href="https://www.ros.org" target="_blank"><img src="https://img.shields.io/badge/ros-%230A0FF9.svg?style=for-the-badge&logo=ros&logoColor=white" alt="ROS"/></a>
 <p>
 
-## Pinned Repos
-
+## Pinned Repos (These are my best projects)
 
 ### provably-packed
 
@@ -174,5 +176,9 @@ Much of my work is on <a href="https://gitlab.com/HaydenLeBaron" target="_blank"
 **README url**: https://github.com/delta-y-app/delta-y-releases/blob/main/README.md
 
 
+## My Technologies Used Examples
 
+At this url you can fetch a list of all of the public repos that I would cite as examples of my use of a particular technology. This list includes some of the above pinned repos,
+but it also includes other repos.
 
+https://github.com/stars/HaydenLeBaron/lists/mytechnologiesusedexamples
