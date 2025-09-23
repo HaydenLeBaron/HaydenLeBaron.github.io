@@ -28,7 +28,8 @@
 
   #graph-wrapper {
     background: #1d1f27;
-    border-radius: 4px;
+    border-radius: 12px;
+    margin: 1.2rem;
     height: auto;
   }
 </style>
@@ -160,13 +161,27 @@
 
     const graphWrapper = document.getElementById('graph-wrapper')
     const element = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+
+    const calculateHeight = () => {
+      const baseHeight = window.innerHeight * 0.8;
+      const width = window.innerWidth;
+
+      // Scale down height on mobile screens
+      if (width <= 768) {
+        return Math.min(baseHeight, window.innerHeight * 0.5);
+      } else if (width <= 1024) {
+        return Math.min(baseHeight, window.innerHeight * 0.7);
+      }
+      return baseHeight;
+    };
+
     element.setAttribute("width", graphWrapper.getBoundingClientRect().width);
-    element.setAttribute("height", window.innerHeight * 0.8);
+    element.setAttribute("height", calculateHeight());
     graphWrapper.appendChild(element);
 
     const reportWindowSize = () => {
       element.setAttribute("width", window.innerWidth);
-      element.setAttribute("height", window.innerHeight);
+      element.setAttribute("height", calculateHeight());
     };
 
     window.onresize = reportWindowSize;
