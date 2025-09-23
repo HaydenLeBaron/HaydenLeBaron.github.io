@@ -14,7 +14,7 @@ body {
   box-sizing: content-box;
   font-family: $font-family;
   margin: 0;
-  line-height: 1.0;
+  line-height: 1.2;
   padding: 0;
   overflow-x: hidden;
   color: $color-text;
@@ -131,10 +131,6 @@ a {
 }
 
 nav {
-  position: sticky;
-  top: 0;
-  background: inherit;
-  z-index: 100;
   margin: 1em 0 2em;
 
   .internal-link {
@@ -143,6 +139,16 @@ nav {
     padding: 1rem;
     margin: 1rem;
     display: inline-block;
+    position: fixed;
+    top: 0.5rem;
+    left: 0.5rem;
+    z-index: 100;
+    background: #191923;
+    opacity: 0.8;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    box-shadow: none;
   }
 }
 
