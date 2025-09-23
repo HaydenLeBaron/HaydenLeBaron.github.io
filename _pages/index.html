@@ -12,7 +12,6 @@ permalink: /
     <div class="header-text">
       <div class="title-container">
         <h1>(Hayden LeBaron) <span class="tagline">:: Software Engineer</span></h1>
-        <a href="/hayden-lebaron-resume.pdf" download="hayden-lebaron-resume.pdf" class="download-button">Download PDF</a>
       </div>
       <nav class="contact-links">
         <a href="mailto:me@haydenlebaron.com" class="email-chip">me@haydenlebaron.com</a>
@@ -32,6 +31,8 @@ permalink: /
         <span class="location">Salt Lake City UT, USA</span>
         <span class="separator">|</span>
         <span class="location">Will relocate worldwide for the right role</span>
+        <span class="separator">|</span>
+        <a href="/hayden-lebaron-resume.pdf" download="hayden-lebaron-resume.pdf" class="download-button">Download PDF</a>
 
 
 <!-- <a href="mailto:me@haydenlebaron.com">me@haydenlebaron.com</a> |
@@ -324,7 +325,7 @@ permalink: /
   /* white-space: nowrap; */
   display: flex;
   align-items: center;
-  /* flex-wrap: nowrap; */
+  flex-wrap: wrap;
   gap: 0.5rem;
 }
 
@@ -348,7 +349,7 @@ permalink: /
 }
 
 .email-chip:hover {
-  background: #005a9f;
+  background: rgb(75, 61, 115);
   text-decoration: none;
 }
 
@@ -530,20 +531,18 @@ li {
 }
 
 .download-button {
-  display: inline-block;
-  padding: 8px 16px;
-  background-color: #191923;
-  /* color: white; */
+  background: rgb(75, 61, 115);
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
   text-decoration: none;
-  /* border-radius: 5px; */
-  font-size: 0.9em;
-  font-weight: bold;
-  transition: background-color 0.3s;
+  font-size: 0.8em;
+  transition: background-color 0.2s;
   white-space: nowrap;
 }
 
 .download-button:hover {
-  background-color: #005a9f;
+  background: rgb(75, 61, 115);
   text-decoration: none;
 }
 
